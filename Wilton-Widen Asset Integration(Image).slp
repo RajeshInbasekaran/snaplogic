@@ -579,7 +579,7 @@
                         "value": true
                     },
                     "path": {
-                        "value": "$entity.items[*]"
+                        "value": "$entity.items[?(@.file_properties && @.file_properties.format_type == \"image\")]"
                     },
                     "showNullValues": {
                         "value": false
