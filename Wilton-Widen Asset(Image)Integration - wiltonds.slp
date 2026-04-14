@@ -12,19 +12,19 @@
             "src_view_id": "outputResponse"
         },
         "link178": {
-            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_id": "11111111-1111-1111-1111-000000000006",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_id": "11111111-1111-1111-1111-000000000004",
             "src_view_id": "output0"
         },
         "link181": {
-            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_id": "11111111-1111-1111-1111-000000000008",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_id": "11111111-1111-1111-1111-000000000007",
             "src_view_id": "output0"
         },
         "link187": {
-            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_id": "11111111-1111-1111-1111-000000000004",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000002",
             "src_view_id": "output0"
@@ -36,9 +36,15 @@
             "src_view_id": "output0"
         },
         "link192": {
-            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_id": "11111111-1111-1111-1111-000000000007",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        },
+        "link197": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000005",
             "src_view_id": "output0"
         }
     },
@@ -134,6 +140,18 @@
             },
             "11111111-1111-1111-1111-000000000003": {
                 "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 180,
+                "rot_tail_int": 180,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
                 "grid_x_int": 4,
                 "grid_y_int": 1,
                 "index": null,
@@ -144,7 +162,19 @@
                 "rot_tail_int": 0,
                 "source": ""
             },
-            "11111111-1111-1111-1111-000000000004": {
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 180,
+                "rot_tail_int": 90,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000006": {
                 "error": {},
                 "grid_x_int": 5,
                 "grid_y_int": 1,
@@ -156,7 +186,7 @@
                 "rot_tail_int": 0,
                 "source": "snap catagory"
             },
-            "11111111-1111-1111-1111-000000000005": {
+            "11111111-1111-1111-1111-000000000007": {
                 "error": {},
                 "grid_x_int": 6,
                 "grid_y_int": 1,
@@ -168,7 +198,7 @@
                 "rot_tail_int": 0,
                 "source": "snap catagory"
             },
-            "11111111-1111-1111-1111-000000000006": {
+            "11111111-1111-1111-1111-000000000008": {
                 "error": {},
                 "grid_x_int": 7,
                 "grid_y_int": 1,
@@ -176,7 +206,7 @@
                 "input": {},
                 "output": {},
                 "recommendation_id": null,
-                "rot_int": 270,
+                "rot_int": 90,
                 "rot_tail_int": 0,
                 "source": "snap catagory"
             }
@@ -485,7 +515,7 @@
                                 },
                                 "paramValProp": {
                                     "expression": false,
-                                    "value": "ag:({Wilton Salsify Images} or {Wilton Public}) lhd:[after 01/01/2026] mt:({C) Wilton Metadata Type}) ssan:-(isempty) wat:({Video} or {Photographs} or {Comps and Renderings} or {Brand Assets})"
+                                    "value": "ag:({Wilton Salsify Images} or {Wilton Public}) lhd:[within 1] mt:({C) Wilton Metadata Type}) ssan:-(isempty) wat:({Video} or {Photographs} or {Comps and Renderings} or {Brand Assets})"
                                 }
                             },
                             {
@@ -579,7 +609,7 @@
                         "value": true
                     },
                     "path": {
-                        "value": "$entity.items[?(   @.file_properties &&   @.file_properties.format_type == \"image\")]"
+                        "value": "$entity.items[?( @.file_properties && @.file_properties.format_type == \"image\")]"
                     },
                     "showNullValues": {
                         "value": false
@@ -795,9 +825,115 @@
             }
         },
         "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-email-emailsender",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "../shared/learning@snaplogic.com Email",
+                                "value": "learning@snaplogic.com Email"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-email-smtpaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Email Sender"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {},
+                "settings": {
+                    "attachments": {
+                        "value": []
+                    },
+                    "batchSize": {
+                        "value": 100
+                    },
+                    "bcc": {
+                        "expression": false,
+                        "value": "rajesh.inbasekaran@syndigo.com"
+                    },
+                    "body": {
+                        "expression": true,
+                        "value": "\"<html><body>\" +\n\"<p>Pipeline executed successfully.</p>\" +\n\"<p><b>Total records processed:</b> \" + $totalRecords + \"</p>\" +\n\"</body></html>\""
+                    },
+                    "cc": {
+                        "expression": false,
+                        "value": "rajesh.inbasekaran@syndigo.com"
+                    },
+                    "emailType": {
+                        "value": "HTML text"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "from": {
+                        "expression": false,
+                        "value": "rajesh.inbasekaran@syndigo.com"
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "retries": {
+                        "value": 3
+                    },
+                    "subject": {
+                        "expression": false,
+                        "value": "Wilton-widen image integration"
+                    },
+                    "tableDataPath": {
+                        "value": null
+                    },
+                    "to": {
+                        "expression": false,
+                        "value": "rajesh.inbasekaran@syndigo.com"
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "instance_id": "11111111-1111-1111-1111-000000000004",
             "property_map": {
                 "error": {
                     "error0": {
@@ -890,10 +1026,95 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000004": {
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-transform-aggregate",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Aggregate"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "aggregateFields": {
+                        "value": [
+                            {
+                                "field": {
+                                    "expression": true,
+                                    "value": "$"
+                                },
+                                "function": {
+                                    "value": "COUNT"
+                                },
+                                "resultField": {
+                                    "value": "totalRecords"
+                                }
+                            }
+                        ]
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "groupByFields": {
+                        "value": []
+                    },
+                    "integerMode": {
+                        "value": false
+                    },
+                    "minimumMemory": {
+                        "expression": false,
+                        "value": 500
+                    },
+                    "outOfResourceTimeout": {
+                        "expression": false,
+                        "value": 30
+                    },
+                    "sortedStreams": {
+                        "value": "Unsorted"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
             "class_id": "com-snaplogic-snaps-syndigopim-rsjsonformatter",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "instance_id": "11111111-1111-1111-1111-000000000006",
             "property_map": {
                 "account": {
                     "account_ref": {
@@ -987,10 +1208,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000005": {
+        "11111111-1111-1111-1111-000000000007": {
             "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "instance_id": "11111111-1111-1111-1111-000000000007",
             "property_map": {
                 "error": {
                     "error0": {
@@ -1057,10 +1278,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000006": {
+        "11111111-1111-1111-1111-000000000008": {
             "class_id": "com-snaplogic-snaps-syndigopim-execute",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "instance_id": "11111111-1111-1111-1111-000000000008",
             "property_map": {
                 "account": {
                     "account_ref": {
@@ -1145,7 +1366,7 @@
                         "value": true
                     }
                 },
-                "view_serial": 100
+                "view_serial": 101
             }
         }
     }
