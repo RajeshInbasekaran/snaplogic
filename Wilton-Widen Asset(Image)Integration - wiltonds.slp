@@ -829,24 +829,7 @@
             "class_version": 2,
             "instance_id": "11111111-1111-1111-1111-000000000003",
             "property_map": {
-                "account": {
-                    "account_ref": {
-                        "value": {
-                            "label": {
-                                "expression": false,
-                                "label": "../shared/learning@snaplogic.com Email",
-                                "value": "learning@snaplogic.com Email"
-                            },
-                            "ref_class_id": {
-                                "value": "com-snaplogic-snaps-email-smtpaccount"
-                            },
-                            "ref_id": {
-                                "expression": false,
-                                "value": null
-                            }
-                        }
-                    }
-                },
+                "account": {},
                 "error": {
                     "error0": {
                         "label": {
