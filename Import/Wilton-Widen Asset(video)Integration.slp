@@ -6,57 +6,39 @@
     "class_version": 9,
     "link_map": {
         "link175": {
-            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_id": "11111111-1111-1111-1111-000000000001",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000000",
             "src_view_id": "outputResponse"
         },
         "link192": {
-            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_id": "11111111-1111-1111-1111-000000000005",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000008",
-            "src_view_id": "output0"
-        },
-        "link206": {
-            "dst_id": "11111111-1111-1111-1111-000000000006",
-            "dst_view_id": "input1",
-            "src_id": "11111111-1111-1111-1111-000000000003",
-            "src_view_id": "output0"
-        },
-        "link207": {
-            "dst_id": "11111111-1111-1111-1111-000000000006",
-            "dst_view_id": "input101",
             "src_id": "11111111-1111-1111-1111-000000000004",
             "src_view_id": "output0"
         },
-        "link210": {
-            "dst_id": "11111111-1111-1111-1111-000000000003",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000001",
-            "src_view_id": "output1"
-        },
         "link216": {
-            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_id": "11111111-1111-1111-1111-000000000004",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_id": "11111111-1111-1111-1111-000000000003",
             "src_view_id": "output0"
         },
         "link217": {
-            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_id": "11111111-1111-1111-1111-000000000006",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000009",
+            "src_id": "11111111-1111-1111-1111-000000000005",
             "src_view_id": "output0"
         },
         "link218": {
-            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_id": "11111111-1111-1111-1111-000000000002",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_id": "11111111-1111-1111-1111-000000000001",
             "src_view_id": "output0"
         },
         "link219": {
-            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_id": "11111111-1111-1111-1111-000000000003",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_id": "11111111-1111-1111-1111-000000000002",
             "src_view_id": "output0"
         }
     },
@@ -116,8 +98,8 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 2,
-                "grid_y_int": 1,
+                "grid_x_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -128,26 +110,8 @@
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 2,
+                "grid_x_int": 4,
                 "grid_y_int": 2,
-                "index": null,
-                "input": {},
-                "output": {
-                    "output1": {
-                        "dx_int": 0,
-                        "dy_int": 1,
-                        "rot_int": 0
-                    }
-                },
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": "snap catagory"
-            },
-            "11111111-1111-1111-1111-000000000002": {
-                "error": {},
-                "grid_x_int": 3,
-                "grid_y_int": 1,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -156,10 +120,22 @@
                 "rot_tail_int": 0,
                 "source": "snap catagory"
             },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
             "11111111-1111-1111-1111-000000000003": {
                 "error": {},
-                "grid_x_int": 3,
-                "grid_y_int": 3,
+                "grid_x_int": 6,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -170,91 +146,32 @@
             },
             "11111111-1111-1111-1111-000000000004": {
                 "error": {},
-                "grid_x_int": 3,
-                "grid_y_int": 4,
+                "grid_x_int": 7,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
-                "source": ""
+                "source": "snap catagory"
             },
             "11111111-1111-1111-1111-000000000005": {
                 "error": {},
-                "grid_x_int": 4,
-                "grid_y_int": 1,
+                "grid_x_int": 8,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
-                "source": ""
+                "source": "snap catagory"
             },
             "11111111-1111-1111-1111-000000000006": {
                 "error": {},
-                "grid_x_int": 4,
+                "grid_x_int": 9,
                 "grid_y_int": 2,
-                "index": null,
-                "input": {
-                    "input1": {
-                        "dx_int": 0,
-                        "dy_int": 1,
-                        "rot_int": 0
-                    },
-                    "input101": {
-                        "dx_int": 0,
-                        "dy_int": 2,
-                        "rot_int": 0
-                    }
-                },
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": "snap catagory"
-            },
-            "11111111-1111-1111-1111-000000000007": {
-                "error": {},
-                "grid_x_int": 5,
-                "grid_y_int": 1,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": ""
-            },
-            "11111111-1111-1111-1111-000000000008": {
-                "error": {},
-                "grid_x_int": 6,
-                "grid_y_int": 1,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": "snap catagory"
-            },
-            "11111111-1111-1111-1111-000000000009": {
-                "error": {},
-                "grid_x_int": 7,
-                "grid_y_int": 1,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": "snap catagory"
-            },
-            "11111111-1111-1111-1111-00000000000a": {
-                "error": {},
-                "grid_x_int": 8,
-                "grid_y_int": 1,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -569,7 +486,7 @@
                                 },
                                 "paramValProp": {
                                     "expression": false,
-                                    "value": "ag:({Wilton Salsify Images} or {Wilton Public}) ff:({Quicktime MOV Video File} or {MPEG4}) mt:({C) Wilton Metadata Type}) ssan:-(isempty) wat:{Video}"
+                                    "value": "ag:({Wilton Salsify Images} or {Wilton Public}) lhd:[within 1] mt:({C) Wilton Metadata Type}) ssan:-(isempty) wat:({Video} or {Photographs} or {Comps and Renderings} or {Brand Assets})"
                                 }
                             },
                             {
@@ -603,103 +520,9 @@
             }
         },
         "11111111-1111-1111-1111-000000000001": {
-            "class_id": "com-snaplogic-snaps-flow-router",
-            "class_version": 2,
-            "instance_id": "11111111-1111-1111-1111-000000000001",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Router"
-                    },
-                    "notes": {}
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "output1": {
-                        "label": {
-                            "value": "output1"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "execution_mode": {
-                        "value": "Disabled"
-                    },
-                    "firstMatch": {
-                        "value": false
-                    },
-                    "routes": {
-                        "value": [
-                            {
-                                "expression": {
-                                    "expression": true,
-                                    "value": "$.get('file_properties') != null &&\n$.get('file_properties').format_type == \"video\""
-                                },
-                                "outputViewName": {
-                                    "value": "output0"
-                                }
-                            },
-                            {
-                                "expression": {
-                                    "expression": true,
-                                    "value": "$.get('file_properties') != null && ['pdf','doc','docx','xls','xlsx','ppt','pptx','txt'] .indexOf($.get('file_properties').format_type.toLowerCase()) != -1"
-                                },
-                                "outputViewName": {
-                                    "value": "output1"
-                                }
-                            },
-                            {
-                                "expression": {
-                                    "expression": true,
-                                    "value": "$.get('file_properties') != null &&$.get('file_properties').format_type == \"audio\""
-                                },
-                                "outputViewName": {
-                                    "value": "output0"
-                                }
-                            }
-                        ]
-                    }
-                },
-                "view_serial": 101
-            }
-        },
-        "11111111-1111-1111-1111-000000000002": {
             "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "instance_id": "11111111-1111-1111-1111-000000000001",
             "property_map": {
                 "error": {
                     "error0": {
@@ -766,404 +589,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000003": {
+        "11111111-1111-1111-1111-000000000002": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000003",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Mapper2"
-                    },
-                    "notes": {}
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "execution_mode": {
-                        "value": "Disabled"
-                    },
-                    "nullSafeAccess": {
-                        "value": false
-                    },
-                    "passThrough": {
-                        "value": false
-                    },
-                    "transformations": {
-                        "value": {
-                            "mappingRoot": {
-                                "value": "$"
-                            },
-                            "mappingTable": {
-                                "value": [
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "\"document\""
-                                        },
-                                        "targetPath": {
-                                            "value": "$type"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$filename"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.property_originalfilename"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$filename"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.filename"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$filename"
-                                        },
-                                        "targetPath": {
-                                            "value": "$name"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$file_properties != null &&  $file_properties.image_properties != null      ? $file_properties.image_properties.width      : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.imagewidth"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$file_properties != null &&  $file_properties.image_properties != null      ? $file_properties.image_properties.height      : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.imageheight"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$metadata.fields.description != null && $metadata.fields.description.length > 0 ? $metadata.fields.description[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2122/g, \"'\")     .replace(/\\u2019/g, \"'\") : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.description"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$metadata.fields.associatedSKUs && $metadata.fields.associatedSKUs.length > 0 ? $metadata.fields.associatedSKUs[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2039/g, \"\")     .split(\",\")     .map(x => x.trim()) : []"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.addskuassoc"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$metadata.fields.SKUSAP && $metadata.fields.SKUSAP.length > 0 ? $metadata.fields.SKUSAP[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2039/g, \"\")     .split(\",\")     .map(x => x.trim()) : []"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.dammainsku"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "cachedSnapGptGenExpressionsRefinementMode": false,
-                                            "expression": true,
-                                            "snapGptEnabled": false,
-                                            "value": "$file_properties != null && $file_properties.format_type != null && $embeds != null ? (     ($file_properties.format_type.toLowerCase().startsWith(\"image\")          ? $embeds.BigCommerce1500x1500JPG.url          : null)     ||     ($file_properties.format_type.toLowerCase().startsWith(\"pdf\")          ? $embeds.document_html5_viewer.url          : null)     ||     ($file_properties.format_type.toLowerCase().startsWith(\"video\")          ? $embeds.VideoWithPlayerAndDownload.url          : null)   ) : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.rsInternalDigitalAssetOriginalAssetUrl"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$embeds.hasOwnProperty(\"BCTestQ100\")  && $embeds.BCTestQ100.url ? $embeds.BCTestQ100.url : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.asseturl2048x2048"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$file_properties != null && $file_properties.format_type != null && $file_properties.format_type.toLowerCase().startsWith(\"image\") && $metadata != null && $metadata.fields != null && $metadata.fields.AutoKeywords != null && $metadata.fields.AutoKeywords.length > 0 ? $metadata.fields.AutoKeywords[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2039/g, \"\")     .split(\",\")     .map(x => x.trim()) : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.autokeywords"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$file_properties != null && $file_properties.format_type != null && $file_properties.format_type.toLowerCase().startsWith(\"image\") && $metadata != null && $metadata.fields != null && $metadata.fields.keywords != null && $metadata.fields.keywords.length > 0 ? $metadata.fields.keywords[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2039/g, \"\")     .split(\",\")     .map(x => x.trim()) : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.damkeywords"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000004": {
-            "class_id": "com-snaplogic-snaps-transform-datatransform",
-            "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000004",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Mapper3"
-                    },
-                    "notes": {}
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "execution_mode": {
-                        "value": "Disabled"
-                    },
-                    "nullSafeAccess": {
-                        "value": false
-                    },
-                    "passThrough": {
-                        "value": false
-                    },
-                    "transformations": {
-                        "value": {
-                            "mappingRoot": {
-                                "value": "$"
-                            },
-                            "mappingTable": {
-                                "value": [
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "\"audio\""
-                                        },
-                                        "targetPath": {
-                                            "value": "$type"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$filename"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.property_originalfilename"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$filename"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.filename"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$filename"
-                                        },
-                                        "targetPath": {
-                                            "value": "$name"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$file_properties != null &&  $file_properties.image_properties != null      ? $file_properties.image_properties.width      : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.imagewidth"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$file_properties != null &&  $file_properties.image_properties != null      ? $file_properties.image_properties.height      : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.imageheight"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$metadata.fields.description != null && $metadata.fields.description.length > 0 ? $metadata.fields.description[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2122/g, \"'\")     .replace(/\\u2019/g, \"'\") : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.description"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$metadata.fields.description != null && $metadata.fields.description.length > 0 ? $metadata.fields.description[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2122/g, \"'\")     .replace(/\\u2019/g, \"'\") : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.damdescr"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$metadata.fields.associatedSKUs && $metadata.fields.associatedSKUs.length > 0 ? $metadata.fields.associatedSKUs[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2039/g, \"\")     .split(\",\")     .map(x => x.trim()) : []"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.addskuassoc"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$metadata.fields.SKUSAP && $metadata.fields.SKUSAP.length > 0 ? $metadata.fields.SKUSAP[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2039/g, \"\")     .split(\",\")     .map(x => x.trim()) : []"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.dammainsku"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "cachedSnapGptGenExpressionsRefinementMode": false,
-                                            "expression": true,
-                                            "snapGptEnabled": false,
-                                            "value": "$file_properties != null && $file_properties.format_type != null && $embeds != null ? (     ($file_properties.format_type.toLowerCase().startsWith(\"image\")          ? $embeds.BigCommerce1500x1500JPG.url          : null)     ||     ($file_properties.format_type.toLowerCase().startsWith(\"pdf\")          ? $embeds.document_html5_viewer.url          : null)     ||     ($file_properties.format_type.toLowerCase().startsWith(\"video\")          ? $embeds.VideoWithPlayerAndDownload.url          : null)   ) : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.rsInternalDigitalAssetOriginalAssetUrl"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$embeds.hasOwnProperty(\"BCTestQ100\")  && $embeds.BCTestQ100.url ? $embeds.BCTestQ100.url : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.asseturl2048x2048"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$file_properties != null && $file_properties.format_type != null && $file_properties.format_type.toLowerCase().startsWith(\"image\") && $metadata != null && $metadata.fields != null && $metadata.fields.AutoKeywords != null && $metadata.fields.AutoKeywords.length > 0 ? $metadata.fields.AutoKeywords[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2039/g, \"\")     .split(\",\")     .map(x => x.trim()) : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.autokeywords"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$file_properties != null && $file_properties.format_type != null && $file_properties.format_type.toLowerCase().startsWith(\"image\") && $metadata != null && $metadata.fields != null && $metadata.fields.keywords != null && $metadata.fields.keywords.length > 0 ? $metadata.fields.keywords[0]     .replace(/[\\u200B-\\u200D\\uFEFF]/g, \"\")     .replace(/\u00e2\u20ac\u2039/g, \"\")     .split(\",\")     .map(x => x.trim()) : null"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.damkeywords"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$metadata.fields.occasion && $metadata.fields.occasion.length > 0 ? $metadata.fields.occasion[0].split(\",\") : []"
-                                        },
-                                        "targetPath": {
-                                            "value": "$attributes.damoccasion"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000005": {
-            "class_id": "com-snaplogic-snaps-transform-datatransform",
-            "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "instance_id": "11111111-1111-1111-1111-000000000002",
             "property_map": {
                 "error": {
                     "error0": {
@@ -1357,78 +786,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000006": {
-            "class_id": "com-snaplogic-snaps-flow-union",
-            "class_version": 2,
-            "instance_id": "11111111-1111-1111-1111-000000000006",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Union"
-                    },
-                    "notes": {}
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "input1": {
-                        "label": {
-                            "value": "input1"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "input101": {
-                        "label": {
-                            "value": "input2"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "execution_mode": {
-                        "value": "Disabled"
-                    }
-                },
-                "view_serial": 101
-            }
-        },
-        "11111111-1111-1111-1111-000000000007": {
+        "11111111-1111-1111-1111-000000000003": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "instance_id": "11111111-1111-1111-1111-000000000003",
             "property_map": {
                 "error": {
                     "error0": {
@@ -1521,12 +882,29 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000008": {
+        "11111111-1111-1111-1111-000000000004": {
             "class_id": "com-snaplogic-snaps-syndigopim-rsjsonformatter",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "instance_id": "11111111-1111-1111-1111-000000000004",
             "property_map": {
-                "account": {},
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "wiltonds"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-syndigopim-syndigoaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
                 "error": {
                     "error0": {
                         "label": {
@@ -1600,10 +978,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000009": {
+        "11111111-1111-1111-1111-000000000005": {
             "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000009",
+            "instance_id": "11111111-1111-1111-1111-000000000005",
             "property_map": {
                 "error": {
                     "error0": {
@@ -1670,12 +1048,29 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-00000000000a": {
+        "11111111-1111-1111-1111-000000000006": {
             "class_id": "com-snaplogic-snaps-syndigopim-execute",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-00000000000a",
+            "instance_id": "11111111-1111-1111-1111-000000000006",
             "property_map": {
-                "account": {},
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "wiltonds"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-syndigopim-syndigoaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
                 "error": {
                     "error0": {
                         "label": {
